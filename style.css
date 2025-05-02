@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(122,183,255,1) 0%, rgba(21,83,161,1) 90% );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.student-placement-form{
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    color: azure;
+}
+
+
+
+table{
+    width: 95%;
+    margin: 40px auto;
+    background-image: linear-gradient( 98.7deg,  rgba(34,175,245,1) 2.8%, rgba(98,247,151,1) 97.8% );
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid white;
+    text-align: left;
+    padding: 10px 14px;
+}
+
+tr:nth-child(even),table.list thread> tr{
+    background-color: blanchedalmond;
+}
+
+input[type="text"],input[type="number"],input[type="email"]{
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 4px;
+
+    
+}
+
+
+input[type="submit"],input[type="reset"]{
+    background: white;
+    padding: 6px 12px;
+    margin:15px 0px 10px;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: rgb(6, 250, 140);
+    
+}
+
+input[type="reset"]:hover{
+    background: rgb(6, 250, 140);
+}
+
+
+button{
+    background: white;
+    padding: 6px 12px;
+    margin:15px 0px 10px;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+
+button :hover{
+background: rgb(6, 250, 140);
+}
+
+

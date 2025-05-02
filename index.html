@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student placement form</title>
+    <link rel="stylesheet" href=style.css>
+
+
+</head>
+<body>
+    <h1 class="student-placement-form">Student Placement Form</h1>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="studentname">Student Name</label>
+                        <input type="text" name="studentname" id="studentname">
+
+                    </div>
+
+                    <div>
+                        <label for="registration">Registration No</label>
+                        <input type="number" name="" id="registration">
+                        
+                    </div>
+
+                    <div>
+                        <label for="domain">Domain</label>
+                        <input type="text" name="domain" id="domain">
+                        
+                    </div>
+
+                    <div>
+                        <label for="email">Email Id</label>
+                        <input type="email" name="email" id="email">
+                        
+                    </div>
+
+                    <div>
+                        <label for="university">University Name</label>
+                        <input type="text" name="university" id="university">
+                        
+                    </div>
+                    <div class="form-action--button">
+                        <input type="submit" value="submit">
+                        <input type="reset"  value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storelist">
+                        <thead>
+                            <tr>
+                                <th>Student Name</th>
+                                <th>Registration No</th>
+                                <th>Domain</th>
+                                <th>Email Id</th>
+                                <th>University Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                        </tbody>
+                    </table>
+                </td>
+
+                
+            </td>
+        </tr>
+    </table>
+    
+    
+
+<script src="app.js"></script> 
+</body>
+</html>
